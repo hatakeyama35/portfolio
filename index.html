@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Izumi</title>
+    <meta cherset="UTF=8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colorbox.css">
+  </head>
+<body>
+  <header id="header">
+    <h1 class="title">Portfolio site</h1>
+    <nav class="main_nav">
+      <ul>
+        <li class="menu_item"><a href="#top">TOP</a></li>
+        <li class="menu_item web"><a href="#web">Web Site</a></li>
+        <li class="menu_item degital"><a href="#degital">Degital</a></li>
+        <li class="menu_item illust"><a href="#illust">Illust</a></li>
+        <li class="menu_item analog"><a href="#analog">Analog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+    <article>
+
+
+      <section class="content_item web" id="web">
+        <h2 class="content_title"><span class="h_sub">Web Site</span></h2>
+        <ul class="work_items">
+          <li class="work_item"><a href="work/web/web_images/index.html" target="_blank"><img src="img/web/web_images.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/web/web_izumi/index.html" target="_blank"><img src="img/web/web_izumi.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/web/web_neko/index.html" target="_blank"><img src="img/web/web_neko.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="http://manga.technosweb.com/" target="_blank"><img src="img/web/web_cafe1.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/web/portfolio.jpg" target="_blank" class="colorbox" title="Parallax効果を用いたポートフォリオサイトデザイン"><img src="img/web/web_portfolio.jpg" width="150" height="150"></a></li>
+        </ul>
+      </section>
+
+      <section class="content_item degital" id="degital">
+        <h2 class="content_title"><span class="h_sub">Degital</span></h2>
+        <ul class="work_items">
+          <li class="work_item"><a href="work/degital/jk.jpg" target="_blank" class="colorbox" title="円盤と歌詞カードのデザインを決めました。"><img src="img/degital/cd.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/degital/cd.jpg" target="_blank" class="colorbox" title="ジャケットをイラストで決めました。"><img src="img/degital/jk.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/degital/panhu.jpg" target="_blank" class="colorbox" title="知り合いのポップをデザインしました。"><img src="img/degital/panhu.jpg" width="150" height="150"></a></li>
+        </ul>
+      </section>
+
+      <section class="content_item illust" id="illust">
+        <h2 class="content_title"><span class="h_sub">Illust</span></h2>
+        <ul class="work_items">
+          <li class="work_item"><a href="work/illust/illust1.jpg" class="colorbox" title=""><img src="img/illust/illust1.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust2.gif" class="colorbox" title=""><img src="img/illust/illust2.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust3.jpg" class="colorbox" title=""><img src="img/illust/illust3.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust4.jpg" class="colorbox" title=""><img src="img/illust/illust4.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust5.jpg" class="colorbox" title=""><img src="img/illust/illust5.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust6.jpg" class="colorbox" title=""><img src="img/illust/illust6.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust7.jpg" class="colorbox" title=""><img src="img/illust/illust7.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust8.gif" class="colorbox" title=""><img src="img/illust/illust8.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust9.jpg" class="colorbox" title=""><img src="img/illust/illust9.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust10.jpg" class="colorbox" title=""><img src="img/illust/illust10.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust11.jpg" class="colorbox" title=""><img src="img/illust/illust11.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust12.jpg" class="colorbox" title=""><img src="img/illust/illust12.jpg" width="150" height="150"></a></li>
+          <li class="work_item"><a href="work/illust/illust13.jpg" class="colorbox" title=""><img src="img/illust/illust13.jpg" width="150" height="150"></a></li>
+        </ul>
+      </section>
+
+      <section class="content_item analog" id="analog">
+        <h2 class="content_title"><span class="h_sub">Analog</span></h2>
+        <ul class="work_items">
+          <li class="work_item"><a href="work/analog/analog1.jpg" class="colorbox" title="SUMMERのロゴ制作課題を切り絵でやりました"><img src="img/analog/analog1.jpg" width="150" height="150"></a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer id="footer">
+  </footer>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/jquery.colorbox-min.js"></script>
+<script>
+$("#web .colorbox").colorbox({rel:'web'});
+$("#degital .colorbox").colorbox({rel:'degital'});
+$("#illust .colorbox").colorbox({rel:'illust'});
+$("#analog .colorbox").colorbox({rel:'analog'});
+</script>
+</body>
+</html>
+
